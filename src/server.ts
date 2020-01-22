@@ -42,7 +42,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
           } else res.status(442).send("Error: sending the file !")
         })
       } else res.status(442).send("Error: filtering the image!")
-    } else res.status(442).send("Error, image url required!")
+    } else res.status(441).send("Error, image url required!")
   })
   // Root Endpoint
   // Displays a simple message to the user
