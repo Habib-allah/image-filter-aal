@@ -16,5 +16,5 @@ http://image-filter-starter-code-dev222.us-east-1.elasticbeanstalk.com
 paste this url in the browser or in postman:
 http://image-filter-starter-code-dev222.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://homepages.cae.wisc.edu/~ece533/images/baboon.png
 
-###The image source can be found here: 
+### The image source can be found here: 
 https://homepages.cae.wisc.edu/~ece533/images/
