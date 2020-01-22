@@ -10,11 +10,11 @@ A basic Ionic client web application which consumes the RestAPI Backend. [Covere
 
 
 ### The endpoint URL for the running elastic beanstalk deployment
-http://image-filter-starter-code-dev222.us-east-1.elasticbeanstalk.com
+http://image-filter-aal-dev.us-east-1.elasticbeanstalk.com
 
 ### A Test:
 paste this url in the browser or in postman:
-http://image-filter-starter-code-dev222.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://homepages.cae.wisc.edu/~ece533/images/baboon.png
+http://image-filter-aal-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://homepages.cae.wisc.edu/~ece533/images/baboon.png
 
 ### The image source can be found here: 
 https://homepages.cae.wisc.edu/~ece533/images/
