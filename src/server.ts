@@ -1,7 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import {filterImageFromURL, deleteLocalFiles} from './util/util';
-
+// THIS IS IN A DEV BRANCH
 (async () => {
 
   // Init the Express application
@@ -40,9 +40,9 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
           if (!err){
             await deleteLocalFiles([output_image])
           } else res.status(442).send("Error: sending the file !")
-        })
+        }) 
       } else res.status(442).send("Error: filtering the image!")
-    } else res.status(441).send("Error, image url required!")
+    } else res.status(442).send("Error, image url required!")
   })
   // Root Endpoint
   // Displays a simple message to the user
